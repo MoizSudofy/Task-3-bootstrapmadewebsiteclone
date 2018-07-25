@@ -1,0 +1,14 @@
+@mixin reset{
+    font-family: "Open Sans",sans-serif;
+    width: 100%;
+    font-size: 15px;
+    color: #555;
+    margin: 0px;
+    padding: 0px;
+}
+@mixin  wrapper {
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+}
+

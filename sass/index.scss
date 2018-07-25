@@ -1,0 +1,14 @@
+// for normalize our css file
+@import "normalize";
+
+// Prerequeste
+@import 'variable';
+@import 'mixin';
+
+
+// main file
+
+@import 'base';
+@import 'media';
+
+// other pages of site

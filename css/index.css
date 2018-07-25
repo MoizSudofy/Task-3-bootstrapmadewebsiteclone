@@ -1,0 +1,859 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+  /* Sections
+	 ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+  /* Grouping content
+	 ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+  /* Text-level semantics
+	 ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+  /* Embedded content
+	 ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+  /* Forms
+	 ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+  /* Interactive
+	 ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+  /* Misc
+	 ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+html, body {
+  font-family: "Open Sans",sans-serif;
+  width: 100%;
+  font-size: 15px;
+  color: #555;
+  margin: 0px;
+  padding: 0px; }
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  font-size: 15px; }
+  .wrapper .nav-bar {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 7% 0px 7%;
+    align-content: center;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+    .wrapper .nav-bar .inner-nav {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 30% 50%;
+      justify-content: space-between;
+      padding: 25px 10px 10px 0px;
+      margin-bottom: 10px; }
+      .wrapper .nav-bar .inner-nav .title-img {
+        margin-left: 11px; }
+      .wrapper .nav-bar .inner-nav #navbar-right-div {
+        display: grid;
+        grid-template-columns: auto 25px; }
+        .wrapper .nav-bar .inner-nav #navbar-right-div .nav-menu {
+          display: grid;
+          grid-template-columns: auto auto auto auto auto 1px auto; }
+          .wrapper .nav-bar .inner-nav #navbar-right-div .nav-menu .menu-items {
+            color: #1e5f8d;
+            align-self: center;
+            padding-bottom: 10px; }
+            .wrapper .nav-bar .inner-nav #navbar-right-div .nav-menu .menu-items:hover {
+              color: #00a6eb;
+              transition: .5s;
+              cursor: pointer; }
+          .wrapper .nav-bar .inner-nav #navbar-right-div .nav-menu .vl {
+            display: inline-block;
+            height: 40px;
+            border: .5px solid lightgrey;
+            align-self: center; }
+        .wrapper .nav-bar .inner-nav #navbar-right-div #navbar-toggle {
+          display: none;
+          font-size: 25px; }
+
+#main {
+  margin-top: 6% !important;
+  width: 100%;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); }
+  #main .paralex-img {
+    width: 100%;
+    background-image: url(../images/intro-bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); }
+    #main .paralex-img .container {
+      padding: 130px 0px 70px 0px;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center; }
+      #main .paralex-img .container h1 {
+        font-size: 48px;
+        color: #fff;
+        font-family: "Roboto",sans-serif;
+        margin: 0 0 15px 0;
+        font-weight: 600;
+        padding: 0; }
+      #main .paralex-img .container p {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 0;
+        color: #fff;
+        font-weight: 300;
+        padding: 0px 40px;
+        margin: 0 0 30px;
+        text-align: justify; }
+
+#grid-section {
+  background-color: #fff;
+  padding: 0px 100px; }
+  #grid-section .inner-main-div {
+    margin: 30px 0px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px; }
+    #grid-section .inner-main-div .grid-col1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px; }
+      #grid-section .inner-main-div .grid-col1 .col1-cart {
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        position: relative; }
+        #grid-section .inner-main-div .grid-col1 .col1-cart:hover {
+          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+          transition: .5s; }
+          #grid-section .inner-main-div .grid-col1 .col1-cart:hover .cart-text {
+            transition: .5s;
+            background-color: #fff; }
+        #grid-section .inner-main-div .grid-col1 .col1-cart .cart-img-tag {
+          width: 100%;
+          height: 100%; }
+          #grid-section .inner-main-div .grid-col1 .col1-cart .cart-img-tag:hover {
+            cursor: pointer; }
+        #grid-section .inner-main-div .grid-col1 .col1-cart .cart-text {
+          background-color: rgba(255, 255, 255, 0.9);
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          color: #555;
+          padding: 15px 10px; }
+          #grid-section .inner-main-div .grid-col1 .col1-cart .cart-text .cart-text-div1 {
+            padding: 5px;
+            display: grid;
+            grid-template-columns: auto auto; }
+            #grid-section .inner-main-div .grid-col1 .col1-cart .cart-text .cart-text-div1 .eBusiness {
+              text-align: left;
+              font-size: 20px;
+              font-weight: 400px; }
+            #grid-section .inner-main-div .grid-col1 .col1-cart .cart-text .cart-text-div1 .downloads {
+              text-align: right; }
+          #grid-section .inner-main-div .grid-col1 .col1-cart .cart-text .cart-text-div2 {
+            font-size: 13px;
+            padding: 5px 5px 10px 5px; }
+          #grid-section .inner-main-div .grid-col1 .col1-cart .cart-text .cart-text-div3 {
+            padding: 5px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+            grid-column-gap: 10px; }
+            #grid-section .inner-main-div .grid-col1 .col1-cart .cart-text .cart-text-div3 button {
+              border: none;
+              outline: none;
+              border-radius: 2px;
+              padding: 3px 5px;
+              background-color: #eee; }
+              #grid-section .inner-main-div .grid-col1 .col1-cart .cart-text .cart-text-div3 button i {
+                margin-right: 8px; }
+            #grid-section .inner-main-div .grid-col1 .col1-cart .cart-text .cart-text-div3 .blue-btn:hover {
+              color: #fff;
+              background-color: #1e5f8d;
+              transition: .3s; }
+            #grid-section .inner-main-div .grid-col1 .col1-cart .cart-text .cart-text-div3 .green-btn:hover {
+              color: #fff;
+              transition: .3s;
+              background-color: #00a651; }
+      #grid-section .inner-main-div .grid-col1 .ab-div1 {
+        grid-area: 4 / 1 / span 2 / span 2; }
+      #grid-section .inner-main-div .grid-col1 .ab-ul {
+        width: 100%;
+        text-align: center;
+        list-style: none;
+        margin-bottom: 0px !important;
+        display: inline-block; }
+      #grid-section .inner-main-div .grid-col1 .ab-li {
+        margin: -2px;
+        display: inline-block;
+        border: 1px solid #ddd;
+        border-right: 0px;
+        padding: 10px 15px 10px 15px;
+        background: none;
+        color: #007791; }
+      #grid-section .inner-main-div .grid-col1 .ab-li:first-child {
+        border-radius: 2px 0px 0px 2px;
+        color: #fff;
+        background-color: #007791;
+        border-color: #007791; }
+        #grid-section .inner-main-div .grid-col1 .ab-li:first-child:hover {
+          background-color: #00a6eb;
+          transition: .5s;
+          border-color: #00a6eb; }
+      #grid-section .inner-main-div .grid-col1 .ab-li:last-child {
+        border-right: 1px solid #ddd;
+        border-radius: 0px 2px 2px 0px; }
+      #grid-section .inner-main-div .grid-col1 .ab-li:nth-child(5) {
+        color: #ddd; }
+      #grid-section .inner-main-div .grid-col1 .ab-li:nth-child(2):hover, #grid-section .inner-main-div .grid-col1 .ab-li:nth-child(3):hover, #grid-section .inner-main-div .grid-col1 .ab-li:nth-child(4):hover, #grid-section .inner-main-div .grid-col1 .ab-li:nth-child(6):hover {
+        border-color: #007791;
+        background-color: #e6f2f5;
+        border-right: 1px solid #007791;
+        cursor: pointer; }
+  #grid-section .grid-col2 {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 40px; }
+    #grid-section .grid-col2 .col2-div1, #grid-section .grid-col2 .col2-div3 {
+      border-radius: 2px;
+      border: 1px solid #e5e5e5; }
+      #grid-section .grid-col2 .col2-div1 .div1-header, #grid-section .grid-col2 .col2-div1 .div3-header, #grid-section .grid-col2 .col2-div3 .div1-header, #grid-section .grid-col2 .col2-div3 .div3-header {
+        background: linear-gradient(to bottom, #eeeeee 0%, #ffffff 3%, #f4f4f4 4%, #ededed 100%);
+        font-size: 16px;
+        color: #555;
+        padding: 10px; }
+      #grid-section .grid-col2 .col2-div1 .div1-content, #grid-section .grid-col2 .col2-div3 .div1-content {
+        box-sizing: border-box;
+        margin: 15px;
+        border: 1px solid #e5e5e5;
+        display: grid;
+        padding: 5px;
+        grid-template-columns: 80% 20%; }
+        #grid-section .grid-col2 .col2-div1 .div1-content input, #grid-section .grid-col2 .col2-div3 .div1-content input {
+          border: none; }
+          #grid-section .grid-col2 .col2-div1 .div1-content input:focus, #grid-section .grid-col2 .col2-div3 .div1-content input:focus {
+            outline: none; }
+        #grid-section .grid-col2 .col2-div1 .div1-content button[class="sbutton"], #grid-section .grid-col2 .col2-div3 .div1-content button[class="sbutton"] {
+          border: none;
+          color: #fff;
+          padding: 7px 0px;
+          border-radius: 2px;
+          background-color: #1e5f8d; }
+          #grid-section .grid-col2 .col2-div1 .div1-content button[class="sbutton"]:hover, #grid-section .grid-col2 .col2-div3 .div1-content button[class="sbutton"]:hover {
+            transition: .5s;
+            background-color: #00a6eb; }
+    #grid-section .grid-col2 .col2-div2 {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      text-align: center; }
+      #grid-section .grid-col2 .col2-div2 .sidebar-twitter {
+        padding: 10px;
+        color: #fff;
+        background-color: #00aced; }
+        #grid-section .grid-col2 .col2-div2 .sidebar-twitter:hover {
+          background-color: #21c2ff; }
+      #grid-section .grid-col2 .col2-div2 .sidebar-facebook {
+        padding: 10px;
+        color: #fff;
+        background-color: #3b5998; }
+        #grid-section .grid-col2 .col2-div2 .sidebar-facebook:hover {
+          background-color: #4c70ba; }
+      #grid-section .grid-col2 .col2-div2 .sidebar-rss {
+        padding: 10px;
+        color: #fff;
+        background-color: #ed7527; }
+        #grid-section .grid-col2 .col2-div2 .sidebar-rss:hover {
+          background-color: #f19356; }
+      #grid-section .grid-col2 .col2-div2 .sidebar-mail {
+        padding: 10px;
+        color: #fff;
+        background-color: #59ae5b; }
+        #grid-section .grid-col2 .col2-div2 .sidebar-mail:hover {
+          background-color: #7bbf7d; }
+    #grid-section .grid-col2 .col2-div3 .div3-cart {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      grid-column-gap: 10px;
+      margin: 0px 15px;
+      padding: 15px 0px;
+      border-bottom: 1px solid #eee; }
+      #grid-section .grid-col2 .col2-div3 .div3-cart .div3-img {
+        background-image: url(https://bootstrapmade.com/wp-content/themefiles/Squadfree/400.png);
+        background-position: center;
+        background-size: cover; }
+      #grid-section .grid-col2 .col2-div3 .div3-cart .div3-text .cart-txt1 {
+        font-size: 16px;
+        font-family: "Roboto",sans-serif;
+        font-weight: 400;
+        margin-bottom: 5px; }
+      #grid-section .grid-col2 .col2-div3 .div3-cart .div3-text .btn-divs {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        font-size: 13px;
+        margin-top: 10px; }
+    #grid-section .grid-col2 .div3-content {
+      box-sizing: border-box;
+      margin: 10px 15px;
+      padding: 5px;
+      display: grid;
+      grid-template-columns: 68% 30%;
+      grid-column-gap: 2%; }
+      #grid-section .grid-col2 .div3-content input[type="text"] {
+        border: 1px solid #e5e5e5;
+        padding: 5px;
+        background-color: #fafafa; }
+        #grid-section .grid-col2 .div3-content input[type="text"]:focus {
+          outline: none; }
+      #grid-section .grid-col2 .div3-content input[type="submit"] {
+        color: #fff;
+        border-radius: 2px;
+        background-color: #1e5f8d;
+        border: none;
+        outline: none; }
+        #grid-section .grid-col2 .div3-content input[type="submit"]:hover {
+          background-color: #00a6eb;
+          transition: .5s; }
+
+#last-section {
+  background: #fafafa;
+  text-align: center;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0px 100px;
+  padding-bottom: 25px; }
+  #last-section .para {
+    padding: 25px 0;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0;
+    color: #333; }
+  #last-section .last-sec-icons {
+    text-align: center;
+    font-size: 30px; }
+    #last-section .last-sec-icons a {
+      text-decoration: none;
+      color: #1e5f8d;
+      transition: 0.3s;
+      font-size: 14px; }
+    #last-section .last-sec-icons i {
+      font-size: 24px;
+      padding: 0 3px; }
+      #last-section .last-sec-icons i:hover {
+        color: #00a6eb;
+        transition: .3s; }
+
+footer {
+  background-color: #fafafa;
+  padding: 25px 100px 25px 100px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2); }
+  footer .one {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    justify-content: space-between; }
+  footer .left-div a {
+    transition: 0.5s;
+    color: #1e5f8d; }
+    footer .left-div a:hover {
+      color: #00a6eb;
+      cursor: pointer; }
+  footer .right-div {
+    font-size: 13px; }
+    footer .right-div ul {
+      padding: 0px;
+      display: grid;
+      grid-template-columns: 1.5fr .7fr 1fr 1.3fr;
+      list-style: none;
+      text-align: center; }
+      footer .right-div ul li:hover {
+        cursor: pointer; }
+      footer .right-div ul .icons {
+        display: grid;
+        grid-template-columns: auto auto auto auto; }
+        footer .right-div ul .icons i:hover {
+          cursor: pointer;
+          color: #00a6eb;
+          transition: 0.5s; }
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  #grid-section {
+    padding: 0px 40px; } }
+@media screen and (min-width: 1050px) and (max-width: 1099px) {
+  #grid-section {
+    padding: 0px 20px; } }
+@media screen and (min-width: 1px) and (max-width: 1049px) {
+  #grid-section {
+    padding: 0px 100px; } }
+@media screen and (min-width: 900px) and (max-width: 1049px) {
+  .inner-main-div {
+    display: block !important; }
+
+  .btn-divs {
+    grid-template-columns: .5fr .5fr 1fr !important; }
+
+  .div3-cart {
+    grid-template-columns: 2fr 4fr !important;
+    grid-column-gap: 50px !important;
+    margin: 0px 25px !important;
+    padding: 25px 0px !important; } }
+@media (min-width: 100px) and (max-width: 900px) {
+  .inner-main-div {
+    display: block !important; }
+
+  .grid-col1 {
+    display: block !important; } }
+@media (min-width: 501px) and (max-width: 900px) {
+  .grid-col1 {
+    margin-bottom: 50px !important; } }
+@media (min-width: 501px) and (max-width: 900px) {
+  .nav-bar {
+    padding: 0px !important; }
+
+  .grid-col1 .col1-cart {
+    margin: 40px 0px !important; }
+
+  .inner-nav {
+    padding-right: 0px !important; } }
+@media screen and (min-width: 100px) and (max-width: 800px) {
+  .nav-menu {
+    display: none !important; }
+
+  #navbar-toggle {
+    display: block !important;
+    text-align: right; } }
+@media screen and (min-width: 100px) and (max-width: 700px) {
+  h1 {
+    font-size: 35px !important; }
+
+  p {
+    padding: 0px 20px !important;
+    text-align: center !important;
+    font-size: 22px !important; }
+
+  #grid-section {
+    padding: 0px 40px !important; }
+
+  .ab-ul {
+    margin-top: 0px !important; }
+
+  #last-section {
+    padding: 0px 40px 10px 40px !important; }
+
+  .para {
+    padding: 15px 0px 0px 0px !important; } }
+@media screen and (min-width: 301px) and (max-width: 500px) {
+  h1 {
+    font-size: 30px !important; }
+
+  p {
+    padding: 0px 15px !important;
+    text-align: center !important;
+    font-size: 18px !important; } }
+@media screen and (min-width: 301px) and (max-width: 500px) {
+  .container {
+    padding: 120px 0px 40px 0px !important; }
+    .container p {
+      padding: 0px 30px !important; } }
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  #grid-section {
+    padding: 0px 20px !important; }
+
+  .ab-ul {
+    margin-top: 10px !important; }
+
+  #last-section {
+    padding: 0px 20px 10px 20px !important; }
+
+  .para {
+    padding: 10px 0px 0px 0px !important; }
+
+  .col1-cart {
+    margin: 20px 0px !important; }
+
+  .inner-main-div {
+    margin: 20px 0px !important; } }
+@media (min-width: 1px) and (max-width: 650px) {
+  .inner-main-div .grid-col2 {
+    display: none !important; } }
+@media (min-width: 301px) and (max-width: 650px) {
+  .ab-div1 {
+    margin-bottom: 30px !important; } }
+@media (min-width: 1px) and (max-width: 400px) {
+  #img-logo {
+    width: 200px !important; } }
+@media screen and (min-width: 850px) and (max-width: 950px) {
+  footer {
+    padding: 15px 50px !important; } }
+@media screen and (min-width: 500px) and (max-width: 849px) {
+  footer {
+    padding: 15px 50px !important; }
+    footer .one {
+      display: block !important;
+      text-align: center; }
+      footer .one .left-div {
+        padding: 10px; }
+      footer .one .right-div {
+        padding: 10px; } }
+@media screen and (min-width: 100px) and (max-width: 499px) {
+  footer {
+    padding: 10px 0px !important; }
+    footer .one {
+      display: block !important;
+      text-align: center; }
+      footer .one .left-div {
+        font-size: 12px;
+        padding: 5px; }
+      footer .one .right-div {
+        font-size: 12px;
+        padding: 5px; } }
+@media screen and (min-width: 100px) and (max-width: 300px) {
+  footer {
+    padding: 10px 0px !important; }
+    footer .one {
+      display: block !important;
+      text-align: center; }
+      footer .one .left-div {
+        font-size: 12px;
+        padding: 5px; }
+      footer .one .right-div {
+        display: none !important; }
+
+  #last-section .last-sec-icons i {
+    font-size: 15px !important; }
+
+  .para {
+    font-size: 14px !important; }
+
+  .ab-div1 {
+    display: none !important; } }
+@media screen and (min-width: 100px) and (max-width: 300px) {
+  h1 {
+    font-size: 23px !important;
+    margin-bottom: 0px !important; }
+
+  p {
+    padding: 10px !important;
+    text-align: center !important;
+    font-size: 15px !important; }
+
+  .container {
+    padding: 110px 0px 20px 0px !important; }
+
+  .inner-nav {
+    grid-template-columns: 60% 20% !important;
+    justify-content: space-between !important;
+    padding: 15px 5px 5px 0px !important;
+    align-items: center;
+    margin-bottom: 10px !important; }
+    .inner-nav #img-logo {
+      width: 150px !important;
+      height: 60% !important; }
+
+  .nav-bar {
+    padding: 0px !important; }
+
+  #navbar-toggle {
+    text-align: right !important; }
+
+  .cart-text {
+    padding: 0px 3px 5px 3px !important; }
+
+  .eBusiness {
+    font-size: 15px !important; }
+
+  .downloads {
+    font-size: 12px !important; }
+
+  .cart-text-div1 {
+    padding: 0px 5px !important;
+    font-weight: bold; }
+
+  .cart-text-div2 {
+    font-size: 10px;
+    padding: 0px 5px !important; }
+
+  .cart-text-div3 button {
+    font-size: 10px !important; }
+    .cart-text-div3 button i {
+      padding-right: 4px !important;
+      margin: 0px !important; } }
+
+/*# sourceMappingURL=index.css.map */
